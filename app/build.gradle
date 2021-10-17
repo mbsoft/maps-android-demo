@@ -2,11 +2,6 @@ plugins {
     id 'com.android.application'
 }
 
-ext {
-    NBAI_API_KEY = 'plaintesting'
-    NBAI_URL = 'https://plain.nextbillion.io'
-}
-
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
