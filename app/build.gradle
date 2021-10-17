@@ -20,11 +20,11 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        resValue "string", "nbmap_access_token", "${nbai_url}"
-        resValue "string", "nbmap_api_base_url", "${nbai_url}"
-        
-        buildConfigField "String", "NBAI_URL", "${nbai_url}"
-        buildConfigField "String", "NBAI_API_KEY", "${nbai_api_key}"
+        //resValue "string", "nbmap_access_token", "${nbai_url}"
+        //resValue "string", "nbmap_api_base_url", "${nbai_url}"
+
+        buildConfigField "String", "NBAI_URL", "\"${System.env.NBAI_URL}\""
+        buildConfigField "String", "NBAI_API_KEY", "\"${System.env.NBAI_API_KEY}\""
     }
 
     buildTypes {
