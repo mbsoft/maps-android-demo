@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "NBMapsDemoApp"
+rootProject.name = "NextBillion AI Maps Demo"

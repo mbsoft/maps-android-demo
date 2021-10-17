@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NBMapsDemoApp</string>
+    <string name="app_name">NextBillion.ai Maps Demo</string>
 
     <string name="marker">Marker Demo</string>
     <string name="geocode">Geocode Demo</string>
