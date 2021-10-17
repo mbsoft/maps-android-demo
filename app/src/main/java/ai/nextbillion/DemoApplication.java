@@ -9,6 +9,6 @@ public class DemoApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Nbmap.getInstance(this, getString(R.string.nbmap_access_token));
+        Nbmap.getInstance(this, BuildConfig.NBAI_API_KEY);
     }
 }

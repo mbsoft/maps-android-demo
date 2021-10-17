@@ -26,6 +26,14 @@
                 android:value=".overview.OverviewActivity" />
         </activity>
         <activity
+            android:name=".GeocodeActivity"
+            android:description="@string/geocode_desc"
+            android:label="@string/geocode">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".overview.OverviewActivity" />
+        </activity>
+        <activity
             android:name=".CustomInfoWindowActivity"
             android:description="@string/info_window_desc"
             android:label="@string/info_window">

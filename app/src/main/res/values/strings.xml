@@ -2,6 +2,7 @@
     <string name="app_name">NBMapsDemoApp</string>
 
     <string name="marker">Marker Demo</string>
+    <string name="geocode">Geocode Demo</string>
     <string name="info_window">Customised Info Window Demo</string>
     <string name="polyline">Polyline Demo</string>
     <string name="polygon">Polygon Demo</string>
@@ -11,6 +12,7 @@
     <string name="distance_matrix">DistanceMatrix Demo</string>
 
     <string name="marker_desc">Marker Demo</string>
+    <string name="geocode_desc">Fwd/Rev Geocoding</string>
     <string name="info_window_desc">InfoWindows with customised background colors</string>
     <string name="polyline_desc">Polyline Demo</string>
     <string name="polygon_desc">Polygon Demo</string>
